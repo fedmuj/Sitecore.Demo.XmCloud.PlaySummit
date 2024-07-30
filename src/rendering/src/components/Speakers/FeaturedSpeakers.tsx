@@ -69,12 +69,10 @@ const FeaturedSpeakers = (props: FeaturedSpeakersProps): JSX.Element => {
             </div>
             <div className="item-details">
               <Text tag="p" className="item-title" field={speaker.name} />
-              <Text tag="p" field={speaker.jobTitle} />
             </div>
           </div>
         </Link>
       ));
-
   const featuredSpeakers = hasSpeakers && (
     <div className={`featured-speakers item-grid ${sxaStyles}`}>
       <div className="grid-content">{speakers}</div>
