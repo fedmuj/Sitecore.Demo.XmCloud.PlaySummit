@@ -49,7 +49,7 @@ const FeaturedEvent = (props: FeaturedEventProps): JSX.Element => {
           </div>
           <div className="btn-area">
             <Link href="/tickets" className="btn-main">
-              {t('Book Tickets') || 'Book Tickets'}
+              {t('Get a Quote') || 'Get a Quote'}
             </Link>
           </div>
         </div>

@@ -83,7 +83,8 @@
       @apply md:block md:absolute md:h-full md:top-0 md:bottom-0 md:left-0 md:right-0;
 
       img {
-        @apply w-full h-full object-cover;
+        @apply  h-full object-contain;
+        width: 50%;
       }
     }
 

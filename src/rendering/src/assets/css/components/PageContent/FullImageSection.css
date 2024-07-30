@@ -1,11 +1,14 @@
 .full-image-section {
-  @apply relative bg-white bg-center bg-no-repeat bg-cover;
+  @apply relative bg-black-darkest bg-center bg-no-repeat bg-cover;
 
   padding: 7em 0;
   box-shadow: 0 0 10px rgba(23, 23, 23, 0.3);
 
   img {
-    @apply absolute top-0 bottom-0 left-0 right-0 w-full h-full object-cover;
+    @apply absolute bottom-0 left-0 right-0 object-contain;
+    width: 50%;
+    height: 70%;
+    top: 15%;
   }
 
   &-left {
@@ -31,6 +34,7 @@
       padding: 3em;
       max-width: 700px;
       box-shadow: 0 0 20px rgba(23, 23, 23, 0.3);
+      width: 50%;
 
       h2 {
         @apply text-2xl font-bold text-black m-0;
@@ -52,6 +56,12 @@
         max-width: 500px;
       }
     }
+  }
+}
+
+.full-image-section-left{
+  img {
+    left: 50%;
   }
 }
 
